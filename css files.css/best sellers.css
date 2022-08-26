@@ -1,0 +1,93 @@
+#container{
+    height:250px;
+    width:90%;
+    /* border:2px solid red; */
+    margin: auto;
+    background-color: #f3f3f3;
+    background-color: #f3f3f3;
+    padding-top: 80px;
+    /* margin-right: 40px; */
+  
+}
+#container>div>p{
+
+    font-size: 18px;
+    text-decoration: none solid rgb (59,59,59);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    word-spacing: 0px;
+    line-height: 23.94px;
+
+}
+ #container>div>h1{
+
+    font-size: 32px;
+    text-decoration: none solid rgb (59,59,59);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    word-spacing: 0px;
+    line-height: 23.94px;  
+    margin-bottom: 20px;
+    
+    
+} 
+#container>div{
+    margin-left:70px;
+    /* line-height: 10px; */
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #navbar {
+    width: 99.8%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    /* text-transform: uppercase; */
+     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-weight: 300; 
+    color:#3f3f3f;
+  }
+  #mid{
+    text-transform: uppercase;
+  }
+
+  #box {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    width: 30%;
+  }
+  #div2 {
+    width: 99.8%;
+    /* border: 1px solid rgb(42, 192, 117); */
+  }
+  #div22 {
+    display: flex;
+    justify-items: center;
+    border: 0px solid red;
+    justify-content: space-evenly;
+    width: 70%;
+    gap: 20px;
+    text-align: left;
+    font-family: ProximaNovaMedium, Arial, sans-serif;
+    margin: auto;
+  }
+
+  .btn{
+    font-size:18px;
+    border:2px solid black;
+     width:240px;color:black;margin-top:30px;
+     border-radius: 6px;
+  }
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
