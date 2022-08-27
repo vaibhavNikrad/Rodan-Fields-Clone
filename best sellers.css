@@ -1,7 +1,7 @@
-#container{
+#container1{
     height:250px;
     width:90%;
-    /* border:2px solid red; */
+    border:0px solid red;
     margin: auto;
     background-color: #f3f3f3;
     background-color: #f3f3f3;
@@ -9,7 +9,7 @@
     /* margin-right: 40px; */
   
 }
-#container>div>p{
+#container1>div>p{
 
     font-size: 18px;
     text-decoration: none solid rgb (59,59,59);
@@ -20,7 +20,7 @@
     line-height: 23.94px;
 
 }
- #container>div>h1{
+ #container1>div>h1{
 
     font-size: 32px;
     text-decoration: none solid rgb (59,59,59);
@@ -33,7 +33,7 @@
     
     
 } 
-#container>div{
+#container1>div{
     margin-left:70px;
     /* line-height: 10px; */
     
@@ -45,19 +45,27 @@ body {
   }
   #navbar {
     width: 99.8%;
-    height: 60px;
+    height: 90px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    /* text-transform: uppercase; */
+    
      font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 font-weight: 300; 
     color:#3f3f3f;
+   
+  }
+ 
+  #navbar>div{
+    color:black;
+    font-weight: 600;
+    margin-left: 15px;
   }
   #mid{
     text-transform: uppercase;
+    font-size: 20px;
   }
 
   #box {
@@ -68,7 +76,9 @@ font-weight: 300;
   }
   #div2 {
     width: 99.8%;
-    /* border: 1px solid rgb(42, 192, 117); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   height:60px;
+   padding:10px;
   }
   #div22 {
     display: flex;
