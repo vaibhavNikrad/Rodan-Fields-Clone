@@ -1,0 +1,18 @@
+#parent{
+
+    height:500px;
+    width:90%;
+    border:2px solid red;
+    margin: auto;
+    text-align: center;
+    display:flex;
+    
+}
+#parent>div{
+
+    height:50%;
+    width:35%;
+    border: 3px solid blue;
+    margin-top:170px;
+    margin-left: 120px;
+}
